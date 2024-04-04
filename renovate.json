@@ -22,14 +22,6 @@
       "labels": ["package-deps"],
       "commitMessageTopic": "package-deps",
       "matchDatasources": ["docker", "helm", "git-tags"],
-      "packagePatterns": ["*"]
-    },
-    {
-      "groupName": "Mattermost Package Dependencies",
-      "labels": ["package-deps"],
-      "commitMessageTopic": "package-deps",
-      "matchPackageNames": ["mattermost/mattermost-enterprise-edition"],
-      "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/"
     }
   ]
 }
