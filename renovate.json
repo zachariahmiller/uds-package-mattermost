@@ -21,7 +21,7 @@
       "groupName": "Mattermost Package Dependencies",
       "labels": ["package-deps"],
       "commitMessageTopic": "package-deps",
-      "matchDatasources": ["docker", "helm", "git-tags"],
+      "matchDatasources": ["docker", "helm", "git-tags"]
     }
   ]
 }
