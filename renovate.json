@@ -10,6 +10,17 @@
     "replacements:all",
     "workarounds:all"
   ],
+  "hostRules": [
+    {
+      "matchHost": "registry1.dso.mil",
+      "hostType": "docker",
+      "description": "Encrypted creds for registry1, scoped to this Github org using: https://github.com/renovatebot/renovate/blob/main/docs/usage/configuration-options.md#encrypted",
+      "encrypted": {
+        "username": "wcFMA/xDdHCJBTolAQ//UzXSCEMHNubfpRYOjGGQr6mdUN9zHH0WJQa5o5VM7xFCvhAd9H+iPSl4P7fNuQif2ft90RSKYlrFEuq8/kDOU3nRrQd/k8zXupWUSx8F3pKe35+ul/EgCxQq1qTNi2eIc1lPw7J6mYfidLd5BjfQJ+rE1VyLORuz1uAi4G9XyVvGZkbv4SPpzc7cKAiiBaFLGMniRq+yA3dr8CdNIjy4OLwTI9udllXJMYxKm0G0cO++hLluHU3cORcwhdrzzl5JjH9cm5XUp33aKniQjPz7DaqC2+xa3HXijtwSQ8rNQKVSdHSsYmPiv4d2oIJLy4TJ0Kqu4bvM0Siqfz8QCMX/2HFDxhzhl2lJ/tv6nE0uKdDCB0svyu5ChqRNkNd+T6mmrMAtv59bfUIdM2teA5iZKB+aHzBihxJQEdBrVOxizzF9cyFkqW4pcgXBZUIiNvGKey1JNrc3PlXjS/odVViDgQnrqTShABU3pELOwZcIthyyanMILo553nrvVAhRG8aoBIq3skOPOltOkW93XXs5T4bxq+7NPWAfd3BKu3P3T5FiGYoeFauN3b6IcynYP6tRCB6tuvWtcwX96IRDT9IIwgLrNTlSW8BeLra6WUc9nw6ETxe9ePaRf9dnFz/3Wytgd2JPhWkhQy56UK4TB1/spCadGQawqFUZmZJQZDUBl57SXQEQsDba8NK3yNWHtuTqmlx7v/scWtKhn14Bqyls7uGFkNqT604myN2A6x885LJ+7DRJ59F2PhZamIuTQvwk+wqokwFQjSy7j6SN87S0lavqNrXCqt60cTcwW877bQ",
+        "password": "wcFMA/xDdHCJBTolAQ/+PovkbYqx3uGU1OG4ZLPh6gvZnwOwlc/vezhpE0T9pKIFSFKwepoaHTdHWEA9FXhoGgz/hd9oeQyYs4f9+Dy/qVw0QKudksD8Djx8edFSwK6yrElNcqi8QnTefYU99mo+PQGCBhTxuTv9eTNYCv2hTMLBhzxdgkM8GDTnsJSbT3EAYuiU6OMNG/zrgpGGlBZD4qkUv8qzolE1KKbsmBPWhYLsz+8a82HxpRerJ0TNe5m8NYmnNJG0SbwnWh58mXbcCAnuIuLJ6bajA1DuyW7JAYohXP1kPbA7FvWFiYvCNqFFfVEQj3JWoL+3iKZLMw2ufzUocGbvg0hdR6Cwbu29SP2mRwErIFD5Df5CBBVaDHWebO+P4pvVafQvORuTVGLXcpwANNha9uKVA7UGmh5urtW90Y1vaK6fk7kJMiHyR2nmzBfxRawZuQogs5iPbAQwnY45jZoJaIDj95ZTS1QWgOE3X3FxWYIUcT0jKq+Xv/C3OqiDN4/+YQeudfHlSTpVVAeKGqACku9SKEHvNpvhADrR2pEKeIehrCtm+nHqpzOaV1s0k7yL4hjBOrgMtL6VNqD6R25q263tCMaawfeUS9hyLPVB71hr+31IgAUF7flDRAqgKwkBl3Yab1G3sARID7HCEut546ny1F9+TgQUaNWapIAnMFkfU8OVL9H/S+7SdgErFGu+L0Dj9iOZPQAr3S4DUB+ALxNMaEymRMoOKpcWvf4+xKDbFXWbfDmloJj8irtxwtCiBy0UqD4tj7sXdo/bxkMhG0Hj1N3KJL39jT0dSRirbuAG0KDOZUheAhMjDn6bwKXcPGVbUxELEWi0YseEXOZpoEU"
+      }
+    }
+  ],
   "packageRules": [
     {
       "groupName": "Mattermost Support Dependencies",
