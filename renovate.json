@@ -28,6 +28,14 @@
       "groupName": "Mattermost Package Dependencies",
       "labels": ["package-deps"],
       "commitMessageTopic": "package-deps",
+      "matchDatasources": ["docker"],
+      "matchPackagePatterns": ["<package-name>"],
+      "ignoreVersions": ["9995379"]
+    },
+    {
+      "groupName": "Mattermost Package Dependencies",
+      "labels": ["package-deps"],
+      "commitMessageTopic": "package-deps",
       "matchPackageNames": ["https://repo1.dso.mil/big-bang/product/packages/mattermost.git"],
       "allowedVersions": "/.+-bb.+/"
     }
