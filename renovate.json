@@ -27,8 +27,7 @@
       "groupName": "Mattermost Package Dependencies",
       "labels": ["package-deps"],
       "commitMessageTopic": "package-deps",
-      "matchDatasources": ["docker"],
-      "matchPackagePatterns": ["mattermost/mattermost-enterprise-edition"],
+      "matchPackageNames": ["mattermost/mattermost-enterprise-edition"],
       "allowedVersions": "/^\\d+\\.\\d+\\.\\d+$/"
     },
     {
